@@ -778,3 +778,142 @@ h3.font-lg {
     opacity: 1;
     visibility: visible;
 }
+
+/* BLOGS PAGE */
+
+.blogs-sec {
+    padding-block: 100px 50px;
+}
+
+.blog-card.card .card-header .card-img-top {
+    max-height: 300px;
+}
+
+.blog-card.card .card-body {
+    min-height: 170px;
+    max-height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px 20px !important;
+}
+
+.blog-card.card .blog-date {
+    font-size: 18px;
+    color: #868686;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.blog-card.card .card-title {
+    font-size: 25px;
+    color: #000;
+}
+
+.blog-card.card .card-title:hover {
+    color: var(--primary-color);
+}
+
+.blog-card.card .read-more {
+    color: var(--primary-color);
+    font-size: 17px;
+    transition: all .3s ease;
+}
+
+.blog-card .read-more:hover {
+    text-decoration: underline !important;
+}
+
+.blog-card .read-more svg {
+    font-size: 12px;
+    transition: transform .3s ease-out;
+    margin-left: 2px;
+}
+
+.blog-card .read-more:hover svg {
+    transform: translateX(3px);
+}
+
+.blog_modal .modal-title {
+    font-size: 23px;
+}
+
+.blog_modal .btn-close {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+button:focus {
+    box-shadow: none !important;
+}
+
+.blog-content {
+    
+}
+
+.blog-content h3 {
+    font-size: 1.3rem;
+}
+
+.blog-content::-webkit-scrollbar {
+    width: 4px;
+}
+
+* ::-webkit-scrollbar-track {
+    background: #dedede;
+    border-radius: 0;
+}
+
+.blog-content hr {
+    border-top-color: #b4b4b4;
+}
+
+.blog_modal .blog_btm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #ececec;
+    padding: 5px 10px 0;
+    border-top: 1px solid #b4b4b4;
+    border-bottom-left-radius: .3rem;
+}
+
+.blog_modal .blog_btm .blog-date {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.blog_modal .blog_btm .blog-date.author {
+    color: var(--primary-color);
+}
+
+.blog_modal .blog_btm .blog-date :where(svg, i) {
+    color: #000;
+    font-size: 15px;
+}
+
+.platforms {
+    background-color: #e9e9e9;
+}
+
+.ads_sponsors img {
+    height: 30px;
+    width: auto;
+}
+
+.slick-initialized .slick-slide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
